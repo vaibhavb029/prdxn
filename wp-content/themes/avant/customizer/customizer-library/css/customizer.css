@@ -1,0 +1,144 @@
+#sub-accordion-section-title_tagline .description.customize-section-description,
+#sub-accordion-section-avant-site-layout-section-site .description.customize-section-description,
+#sub-accordion-section-avant-site-layout-section-header .description.customize-section-description,
+#sub-accordion-section-avant-site-layout-section-footer .description.customize-section-description,
+#sub-accordion-section-colors .description.customize-section-description {
+    background-color: #e2f1ff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 -12px 0 -10px;
+    padding: 15px 15px 16px;
+    font-size: 12px;
+}
+
+#customize-theme-controls #accordion-section-title_tagline .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-avant-panel-layout .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-avant-panel-font-settings .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-avant-panel-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-panel-avant-panel-text .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-colors .accordion-section-title:hover,
+#customize-theme-controls #accordion-section-avant-social-section .accordion-section-title:hover {
+    background-color: #006CC9;
+    color: #FFF;
+}
+#customize-theme-controls #accordion-section-title_tagline .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-avant-panel-layout .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-avant-panel-font-settings .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-avant-panel-colors .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-panel-avant-panel-text .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-section-colors .accordion-section-title:hover:after,
+#customize-theme-controls #accordion-section-avant-social-section .accordion-section-title:hover:after {
+    color: #FFF !important;
+}
+#accordion-section-avant_premium a.button {
+    background-color: #006CC9;
+    color: #FFF;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+    border: 0;
+    position: relative;
+    top: -2px;
+}
+#accordion-section-avant_premium a.button:hover {
+    background-color: #0952A9;
+    color: #FFF;
+}
+.avant-prem-tryout {
+    clear: both;
+    text-align: right;
+    font-size: 11px;
+    line-height: 11px;
+    text-decoration: none;
+    padding: 4px 0 0;
+}
+
+.kaira-note-txt {
+    margin-top: 30px;
+}
+.kaira-note-txt b {
+    font-weight: 500;
+    color: #006CC9;
+}
+.kaira-note-txt-desc {
+    font-size: 11px;
+    color: #a5a5a5;
+}
+.isnton {
+    display: none;
+}
+.kaira-help-txt {
+    font-size: 11px;
+    color: #969696;
+}
+.hide {
+    display: none;
+}
+.avant-note-savant {
+    display: block;
+}
+
+.avant-remove-section {
+	display: none !important;
+}
+#customize-controls .description {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+#customize-control-blogdescription,
+#customize-control-avant-site-tagline-case-normal,
+#customize-control-avant-slider-full-width,
+#customize-control-avant-slider-scroll-effect,
+#customize-control-avant-body-font-color,
+#customize-control-avant-heading-font-color,
+#customize-control-avant-page-title-font-color,
+#customize-control-avant-bloglist-title-color,
+#customize-control-avant-branding-bottom-pad,
+#customize-control-avant-logo-max-width,
+#customize-control-avant-title-font-size,
+#customize-control-avant-tagline-font-size,
+#customize-control-avant-remove-topborder,
+#customize-control-avant-site-layout,
+#customize-control-avant-remove-content-border,
+#customize-control-avant-page-remove-titlebar,
+#customize-control-avant-page-widget-spacing,
+#customize-control-avant-header-nav-pos,
+#customize-control-avant-blog-break-blocks,
+#customize-control-avant-blog-layout,
+#customize-control-avant-blog-list-img-cut,
+#customize-control-avant-blog-widget-title-style,
+#customize-control-avant-remove-cats-count,
+#customize-control-avant-topbar-font-color,
+#customize-control-avant-navi-font-color,
+#customize-control-avant-footer-font-color,
+#customize-control-avant-website-head-no,
+#customize-control-avant-website-error-msg,
+#customize-control-avant-footer-side-fullwidth,
+#customize-control-avant-align-product-titles,
+#customize-control-avant-remove-wc-page-titles,
+#customize-control-avant-website-txt-copy {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0 0 20px;
+    margin-bottom: 15px;
+}
+#customize-control-blogname,
+#customize-control-avant-site-add-side-social,
+#customize-control-avant-header-layout,
+#customize-control-avant-header-menu-text,
+#customize-control-avant-header-search,
+#customize-control-avant-wc-product-title-size,
+#customize-control-avant-slider-cats,
+#customize-control-avant-slider-shortcode,
+#customize-control-avant-slidermage-size,
+#customize-control-avant-meta-slider-shortcode,
+#customize-control-avant-primary-color,
+#customize-control-avant-navi-selected-color,
+#customize-control-avant-blog-cats,
+#customize-control-avant-remove-blog-title,
+#customize-control-avant-article-content-display,
+#customize-control-avant-page-content-spacing,
+#customize-control-avant-bottombar-switch,
+#customize-control-avant-blog-left-sidebar,
+#customize-control-avant-single-remove-meta {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 20px 0 0;
+    margin-top: 12px;
+}

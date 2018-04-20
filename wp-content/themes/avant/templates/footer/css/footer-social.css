@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+Avant - Footer Social Styling
+--------------------------------------------------------------*/
+.site-footer-social {
+    background-color: #fff;
+    text-align: center;
+    padding: 0 30px;
+    color: #aaa;
+}
+.site-footer-icons {
+    padding: 90px 0 95px;
+}
+.footer-social-icon {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 14px;
+    margin: 0 15px 25px;
+    text-align: center;
+    color: inherit;
+}
+.site-footer-icon-text {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.site-footer-social-txt {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.site-footer-social-txt .fa {
+    font-size: 16px;
+    margin: 0 4px 0 0;
+}
+.site-footer-social-copy {
+    font-size: 11px;
+    margin: 8px 0 0;
+    letter-spacing: 1px;
+}
+.site-social-bottom-bar {
+    text-align: center;
+    padding: 10px 0 12px;
+}
+
+.site-footer-bottom-bar-right .site-footer-social-txt {
+    display: inline-block;
+    font-size: 11px;
+    margin: 0 10px 0 0;
+}
+
+.site-boxed .site-footer {
+    box-shadow: 0 -2px 3px 0 rgba(238, 238, 238, 0.4), 0 1px 0 rgba(0, 0, 0, 0.08) inset, 1px 0 0 rgba(0, 0, 0, 0.08) inset, -1px 0 0 rgba(0, 0, 0, 0.08) inset;
+}
+.site-boxed .site-footer-bottom-bar {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset, 1px 0 0 rgba(0, 0, 0, 0.08) inset, -1px 0 0 rgba(0, 0, 0, 0.08) inset;
+}
+
+.content-boxed .site-boxed .site-footer {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+.content-boxed .site-boxed .site-footer-bottom-bar {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+
+@media only screen and (max-width: 782px) {
+
+    .site-footer-icons {
+        padding: 60px 0 45px;
+    }
+    .footer-social-icon {
+        font-size: 26px;
+        line-height: 24px;
+        margin: 0 10px 15px;
+    }
+
+}

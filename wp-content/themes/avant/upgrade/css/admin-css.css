@@ -1,0 +1,50 @@
+.tgm-custom-button {
+    padding: 0 0 5px;
+}
+.tgm-custom-button span {
+    font-size: 16px;
+    color: #000;
+}
+.tgm-custom-button a.tgm-custom-button {
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset !important;
+    background-color: #006CC9;
+    color: #FFF !important;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+.tgm-custom-button a.tgm-custom-button:hover {
+    background-color: #0952A9;
+}
+span.premium-link {
+    color: #00b9eb;
+}
+
+/* ---- Category ID Column ---- */
+.cat_id_note {
+    display: block;
+    font-size: 10px;
+    color: #999;
+}
+.column-cat_id {
+    width: 15%;
+}
+
+/* ---- Show / Hide Widget areas ---- */
+body.avant-footer-layout-social.widgets-php #avant-site-footer-standard {
+    display: none !important;
+}
+body.widgets-php .widgets-holder-wrap {
+    box-shadow: none;
+    border: 0;
+}
+body.widgets-php #sidebar-1,
+body.avant-footer-layout-standard.widgets-php #avant-site-footer-standard {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}

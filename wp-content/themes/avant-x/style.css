@@ -1,0 +1,205 @@
+/*
+Theme Name:   Avant-X
+Theme URI:    https://kairaweb.com/child-theme/avant-x/
+Description:  Avant-X is a redesigned look for the multipurpose WooCommerce theme, Avant. Easily built a professional website or eCommerce store by adding our recommended top plugins from WooCommerce to Page Builders and lots more. Avant-X is beautiful, clean and comes packed with lots of layout settings, full theme color settings and lots more... Have fun designing your website without any coding knowledge... Avant-X is the theme you want! Hope you like it!
+Author:       Kaira
+Author URI:   https://kairaweb.com/
+Template:     avant
+Version:      1.0.1
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, blog, e-commerce
+Text Domain:  avant-x
+*/
+
+/* Add custom styling from here */
+
+.site-top-bar,
+.site-top-bar-left,
+.site-top-bar-right {
+    background-color: #000;
+}
+.site-top-bar.site-header-layout-four {
+    background-color: #000;
+    color: #e5e5e5;
+}
+
+.site-top-bar.site-header-layout-three,
+.site-top-bar.site-header-layout-three .site-top-bar-left,
+.site-top-bar.site-header-layout-three .site-top-bar-right {
+    background-color: #f7f7f7;
+    color: #6d6d6d;
+}
+
+body.home .avant-slider-default .site-header {
+    margin: 0;
+}
+
+.home-slider-block-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6)
+}
+
+body,
+.widget-area .widget a {
+    color: #636161;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+.widget-area .widget-title {
+    color: #3a3a3a;
+    font-family: 'Abel', serif;
+}
+.woocommerce table.cart th,
+.woocommerce-page #content table.cart th,
+.woocommerce-page table.cart th,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce table.cart input,
+.woocommerce-page #content table.cart input,
+.woocommerce-page table.cart input,
+button, input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    font-family: 'Abel', serif;
+}
+.site-title a {
+    font-family: 'Abel', serif;
+}
+
+.site-top-border,
+#comments .form-submit #submit,
+.search-block .search-submit,
+.side-aligned-social a.social-icon,
+.no-results-btn,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.widget-title-style-underline-short .widget-area .widget-title:after,
+.woocommerce ul.products li.product a.add_to_cart_button, .woocommerce-page ul.products li.product a.add_to_cart_button,
+.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale,
+.woocommerce button.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce .cart-collaterals .shipping_calculator .button,
+.woocommerce-page .cart-collaterals .shipping_calculator .button,
+.woocommerce a.button,
+.woocommerce-page a.button,
+.woocommerce input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page input.button,
+.woocommerce #review_form #respond .form-submit input,
+.woocommerce-page #review_form #respond .form-submit input,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.single-product span.onsale,
+.main-navigation.avant-nav-style-solid ul > li > a:hover,
+.main-navigation.avant-nav-style-solid ul > li.current-menu-item > a,
+.main-navigation.avant-nav-style-solid ul > li.current-menu-ancestor > a,
+.main-navigation.avant-nav-style-solid ul > li.current-menu-parent > a,
+.main-navigation.avant-nav-style-solid ul > li.current_page_parent > a,
+.main-navigation.avant-nav-style-solid ul > li.current_page_ancestor > a,
+.main-navigation.avant-nav-style-solid .current_page_item > a,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.main-navigation ul ul a:hover,
+.main-navigation ul ul li.current-menu-item > a,
+.main-navigation ul ul li.current_page_item > a,
+.main-navigation ul ul li.current-menu-parent > a,
+.main-navigation ul ul li.current_page_parent > a,
+.main-navigation ul ul li.current-menu-ancestor > a,
+.main-navigation ul ul li.current_page_ancestor > a,
+.main-navigation button,
+.wpcf7-submit,
+.wp-paginate li a:hover,
+.wp-paginate li a:active,
+.wp-paginate li .current,
+.wp-paginate.wpp-modern-grey li a:hover,
+.wp-paginate.wpp-modern-grey li .current {
+    background: inherit;
+    background-color: #000;
+}
+
+a,
+.content-area .entry-content a,
+#comments a,
+.post-edit-link,
+.site-title a,
+.error-404.not-found .page-header .page-title span,
+.search-button .fa-search,
+.header-cart-checkout.cart-has-items .fa-shopping-cart,
+.site-header-top-right .social-icon:hover,
+.site-footer-bottom-bar .social-icon:hover,
+.main-navigation.avant-nav-style-plain ul > li > a:hover,
+.main-navigation.avant-nav-style-plain ul > li.current-menu-item > a,
+.main-navigation.avant-nav-style-plain ul > li.current-menu-ancestor > a,
+.main-navigation.avant-nav-style-plain ul > li.current-menu-parent > a,
+.main-navigation.avant-nav-style-plain ul > li.current_page_parent > a,
+.main-navigation.avant-nav-style-plain ul > li.current_page_ancestor > a,
+.main-navigation.avant-nav-style-plain .current_page_item > a {
+    color: #000;
+}
+.main-navigation.avant-nav-style-underlined ul > li > a:hover,
+.main-navigation.avant-nav-style-underlined ul > li.current-menu-item > a,
+.main-navigation.avant-nav-style-underlined ul > li.current-menu-ancestor > a,
+.main-navigation.avant-nav-style-underlined ul > li.current-menu-parent > a,
+.main-navigation.avant-nav-style-underlined ul > li.current_page_parent > a,
+.main-navigation.avant-nav-style-underlined ul > li.current_page_ancestor > a,
+.main-navigation.avant-nav-style-underlined .current_page_item > a {
+    box-shadow: 0 -4px 0 #000 inset;
+}
+
+a:hover,
+.avant-header-nav ul li a:hover,
+.content-area .entry-content a:hover,
+.header-social .social-icon:hover,
+.widget-area .widget a:hover,
+.site-footer-widgets .widget a:hover,
+.site-footer .widget a:hover,
+.search-btn:hover,
+.search-button .fa-search:hover,
+.woocommerce #content div.product p.price,
+.woocommerce-page #content div.product p.price,
+.woocommerce-page div.product p.price,
+.woocommerce #content div.product span.price,
+.woocommerce div.product span.price,
+.woocommerce-page #content div.product span.price,
+.woocommerce-page div.product span.price,
+.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
+    color: #a8a8a8;
+}
+
+.main-navigation button:hover,
+#comments .form-submit #submit:hover,
+.search-block .search-submit:hover,
+.no-results-btn:hover,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce .cart-collaterals .shipping_calculator .button,
+.woocommerce-page .cart-collaterals .shipping_calculator .button,
+.woocommerce a.button:hover,
+.woocommerce-page a.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce-page input.button:hover,
+.woocommerce ul.products li.product a.add_to_cart_button:hover, .woocommerce-page ul.products li.product a.add_to_cart_button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce #review_form #respond .form-submit input:hover,
+.woocommerce-page #review_form #respond .form-submit input:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content,
+.wpcf7-submit:hover {
+    background: inherit;
+    background-color: #a8a8a8;
+}

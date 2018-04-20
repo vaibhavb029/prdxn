@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+Avant - Footer None Styling
+--------------------------------------------------------------*/
+.site-footer-none {
+    background-color: #fff;
+    text-align: center;
+    color: #aaa;
+}
+.site-footer-none .site-footer-bottom-bar {
+    box-shadow: none;
+}
+.site-side-layout-container .site-footer {
+    padding: 2px 25px;
+}
+.site-side-layout-container .site-footer-bottom-bar {
+    padding: 0;
+}
+
+.site-boxed .site-footer-bottom-bar {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset, 1px 0 0 rgba(0, 0, 0, 0.08) inset, -1px 0 0 rgba(0, 0, 0, 0.08) inset;
+}
+.content-boxed .site-boxed .site-footer-bottom-bar {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08) inset;
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .site-footer-bottom-bar-left,
+    .site-bottombar-switch .site-footer-bottom-bar-left {
+        float: none;
+        text-align: center;
+        padding: 10px 0 3px;
+    }
+    .site-footer-bottom-bar-right,
+    .site-bottombar-switch .site-footer-bottom-bar-right {
+        float: none;
+        text-align: center;
+        padding: 3px 0 12px;
+    }
+    
+}
